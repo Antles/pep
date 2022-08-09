@@ -33,9 +33,8 @@ const Pep = () => {
         <h1 className="pepMessage" id="pep">
           {pepMessage}
         </h1>
-        <div className="ui fade animated button" onClick={handlePepClick}>
-          <div className="hidden content">Me Up!</div>
-          <div className="visible content">Pep!</div>
+        <div className="ui button" onClick={handlePepClick}>
+          Pep!
         </div>
         <div className="ui button" onClick={copyToClipboard()}>
           Copy To Clipboard
