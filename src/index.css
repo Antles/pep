@@ -5,9 +5,34 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #94d2bd;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  gap: 10px;
+
+}
+.ui.button{
+  background: #005f73;
+  color: #e9d8a6;
+}
+
+.ui.button:hover{
+  background: #001219;
+  color: #e9d8a6;
+}
+
+.pepMessage {
+  color: #001219;
 }
